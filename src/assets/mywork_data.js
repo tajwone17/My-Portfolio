@@ -4,7 +4,10 @@ import project3_img from '../assets/project_3.svg'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
-
+import project11_img from '../assets/project_1.png'
+import project12_img from '../assets/project2.png'
+import project13_img from '../assets/project_3.png'
+import project14_img from '../assets/project_4.png'
 const mywork_data = [
     {
         w_no:1,

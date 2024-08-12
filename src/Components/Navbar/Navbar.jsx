@@ -17,10 +17,11 @@ const Navbar = () => {
     return (
         <div className="navbar">
               <div className="logo-title">
-                <h1>TAjWOnE</h1>
+               <a href="https://tajwone-portfolio.netlify.app/"> <h1>TAjWOnE</h1>
                 <img src={theme_pattern} alt="" />
+                </a>
             </div>
-            {/* <img src={logo} alt="" /> */}
+            
             <img src={openMenu} onClick={open_Menu} className='nav-mob-open' alt="" />
             <ul ref={menuRef} className="nav-menu">
             <img src={closeMenu} onClick={close_Menu} className='nav-mob-close' alt="" />

@@ -36,6 +36,10 @@
     font-size: 15px;
 }
 
+.anchor-link p:hover{
+    color: #B415FF;
+
+}
 .nav-connect {
     padding: 15px 20px;
     border-radius: 50px;
@@ -76,6 +80,10 @@
 .nav-mob-open {
     display: none;
 }
+.logo-title a{
+    text-decoration:none;
+    color: white;
+}
 
 @media(max-width:768px) {
     .nav-connect {
@@ -90,6 +98,7 @@
         display: block;
         position: absolute;
         right: 30px;
+        cursor: pointer;
     }
 
     .nav-mob-close {
