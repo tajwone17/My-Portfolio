@@ -1,13 +1,16 @@
 import React from 'react';
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 import user_icon from '../../assets/user_icon.svg'
 const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <img src={footer_logo} alt="" />
+                <div className="logo-title">
+                <h1>TAjWOnE</h1>
+                <img src={theme_pattern} alt="" />
+            </div>
                     <p>I’m passionate about creating engaging web applications and continuously expanding my skills. Excited to work on innovative projects!</p>
                 </div>
                 <div className="footer-top-right">

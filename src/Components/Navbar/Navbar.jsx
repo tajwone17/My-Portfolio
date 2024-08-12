@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import openMenu from '../../assets/menu_open.svg'
 import closeMenu from '../../assets/menu_close.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 const Navbar = () => {
     const [menu, setMenu] = useState("Home");
     const menuRef=useRef();
@@ -16,7 +16,11 @@ const Navbar = () => {
     }
     return (
         <div className="navbar">
-            <img src={logo} alt="" />
+              <div className="logo-title">
+                <h1>TAjWOnE</h1>
+                <img src={theme_pattern} alt="" />
+            </div>
+            {/* <img src={logo} alt="" /> */}
             <img src={openMenu} onClick={open_Menu} className='nav-mob-open' alt="" />
             <ul ref={menuRef} className="nav-menu">
             <img src={closeMenu} onClick={close_Menu} className='nav-mob-close' alt="" />

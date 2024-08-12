@@ -45,6 +45,26 @@
     justify-content: space-between;
     font-size: 16px;
 }
+.logo-title{
+    position: relative;
+}
+.logo-title h1{
+    padding: 0px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo-title img{
+   
+    left: 95px;
+    right: 0;
+    bottom: 4px;
+    z-index: -1;
+    width: 50px;    
+  
+    position: absolute;
+ 
+   
+}
 .footer-bottom-right{
     display: flex;
     gap: 30px;
@@ -82,5 +102,21 @@
     }
     .footer-bottom-right {
         gap: 12px;
+    }
+    .logo-title h1{
+        padding: 0px 0px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .logo-title img{
+       
+        left: 60px;
+        right: 0;
+        bottom: 4px;
+        z-index: -1;
+        width: 40px;    
+        position: absolute;
+    
+       
     }
 }
